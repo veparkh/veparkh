@@ -1,31 +1,25 @@
 ## Vitaliy Parkhomenko
 
-Embedded firmware engineer focused on real-time STM32 systems. Experience includes bare-metal and FreeRTOS development, dual-core STM32H7 architectures, high-frequency control loops, and low-level peripheral work (HRTIM, ADC, DMA, CAN, SPI). Additional experience in Kotlin applications (Android/Desktop) interacting with hardware devices.
+Embedded firmware engineer working with real-time STM32 systems. Mostly C, sometimes Kotlin for Android/Desktop tools.
 
-Focused on problems at the boundary between firmware and systems — debugging complex behavior, designing protocols, and building interfaces to real devices.
+### Projects
 
-**Languages:** C · Kotlin · Java · Python  
-**Embedded:** STM32 · FreeRTOS · lwIP · CAN · SPI · DMA · HRTIM · ADC  
-**Frameworks:** Jetpack Compose · Compose Desktop · Coroutines/Flow · MVVM · Android SDK
+- **[ElectroMaze](https://github.com/veparkh/ElectroMaze)** — Android controller for a physical ball-through-maze table (Bluetooth, custom protocol).
+- **[ElectroMazeCV](https://github.com/veparkh/ElectroMazeCV)** — Host-side controller: computer vision, pathfinding, closed-loop control.
+- **[ElectroMazeSTM](https://github.com/veparkh/ElectroMazeSTM)** — STM32 firmware for tilt stage with IMU-based attitude control.
+- **[ph4hrtim](https://github.com/veparkh/ph4hrtim)** — SVPWM for a 3-phase 4-wire inverter (STM32G4 HRTIM). Verified up to 150 kHz on hardware.
 
-### Selected projects
+### Not public
 
-- **[ElectroMaze](https://github.com/veparkh/ElectroMaze)** — Android application controlling a physical labyrinth table over Bluetooth. Implemented a custom binary protocol with CRC32 and reliable command handling, built with Kotlin Coroutines/Flow and Jetpack Compose.
-
-### Additional experience
-
-Work not available as public repositories:
-
-- Real-time control firmware on dual-core STM32H7: HRTIM-based PWM, 18-bit ADC sampling, ~200 kHz control loop.
-- SVPWM inverter firmware for three-phase power stage (8-switch configuration).
-- Desktop HMI application (Kotlin / Compose Desktop): TCP client, custom binary protocol, role-based access control.
-- VS Code extension integrating AI with OpenOCD debug sessions — enabling analysis of live MCU state (CPU/peripheral registers, memory, fault context).
+- Real-time control firmware on dual-core STM32H7 (~200 kHz loop, 18-bit ADC, HRTIM). Bare-metal C.
+- Desktop HMI for industrial hardware. Kotlin, Compose Desktop.
+- VS Code extension integrating AI with OpenOCD debug sessions. TypeScript.
 
 ### Education
 
-B.Sc. in Automation and Mechatronics, Saint Petersburg Electrotechnical University "LETI", 2024.
+B.Sc. in Automation and Mechatronics, SPbETU "LETI", 2024.
 
 ### Contact
 
 - Email: v.parxomenko16@gmail.com
-- LinkedIn: [vitaliy-parkhomenko](https://www.linkedin.com/in/vitaliy-parkhomenko-a623833b9)
+- LinkedIn: [veparkh](https://www.linkedin.com/in/veparkh)
