@@ -4,10 +4,11 @@ Embedded firmware engineer working with real-time STM32 systems. Mostly C, somet
 
 ### Projects
 
+- **[ph4hrtim](https://github.com/veparkh/ph4hrtim)** — SVPWM for a 3-phase 4-wire inverter (STM32G4 HRTIM). Verified up to 150 kHz on hardware.
+- **[ElectroMazeSTM](https://github.com/veparkh/ElectroMazeSTM)** — STM32 firmware for tilt stage with IMU-based attitude control.
 - **[ElectroMaze](https://github.com/veparkh/ElectroMaze)** — Android controller for a physical ball-through-maze table (Bluetooth, custom protocol).
 - **[ElectroMazeCV](https://github.com/veparkh/ElectroMazeCV)** — Host-side controller: computer vision, pathfinding, closed-loop control.
-- **[ElectroMazeSTM](https://github.com/veparkh/ElectroMazeSTM)** — STM32 firmware for tilt stage with IMU-based attitude control.
-- **[ph4hrtim](https://github.com/veparkh/ph4hrtim)** — SVPWM for a 3-phase 4-wire inverter (STM32G4 HRTIM). Verified up to 150 kHz on hardware.
+
 
 ### Not public
 
