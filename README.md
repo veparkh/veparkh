@@ -1,6 +1,6 @@
 ## Vitaliy Parkhomenko
 
-Embedded firmware engineer working with real-time STM32 systems. Mostly C, sometimes Kotlin for Android/Desktop tools.
+Embedded firmware engineer working with real-time STM32 systems. Mostly C/C++, sometimes Kotlin for Android/Desktop tools.
 
 ### Projects
 
